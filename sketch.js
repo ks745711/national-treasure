@@ -48,9 +48,9 @@ function draw() {
     if (dist(position.x, position.y, mouseX, mouseY) < (zoom * 3.5) / 2) {
 
       fill(0, 128, 129);
+      noStroke();
       rect(position.x, position.y, 450, 150);
       fill(255);
-      noStroke();
       textAlign(LEFT);
       textFont('Roboto');
       textSize(22);
