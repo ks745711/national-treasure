@@ -75,7 +75,7 @@ function draw() {
     textFont('Beth Ellen');
     textSize(3.5 * zoom-15);
     textAlign(CENTER, CENTER);
-    text(i, position.x, position.y+1);
+    text(i+1, position.x, position.y+1);
   }
 
   }
