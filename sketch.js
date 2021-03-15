@@ -49,18 +49,16 @@ function draw() {
 
       fill(0, 128, 129);
       noStroke();
-      rect(position.x, position.y, 450, 150);
+      rect(10, windowHeight-190, windowWidth-210, 150, 5);
       fill(255);
       textAlign(LEFT);
       textFont('Roboto');
-      textSize(22);
       textSize(16);
-      text('Movie location: ' + movielocation, position.x + 10, position.y + 20, 430);
-      text('Real location: ' + reallocation, position.x + 10, position.y + 40, 430);
-      text('Address: ' + realaddress, position.x + 10, position.y + 60, 430);
-      text('Scene: ' + scene, position.x + 10, position.y + 100, 430);
+      text('Movie location: ' + movielocation, 30, windowHeight-170, windowWidth-250);
+      text('Real location: ' + reallocation, 30, windowHeight-150, windowWidth-250);
+      text('Address: ' + realaddress, 30, windowHeight-130, windowWidth-250);
+      text('Scene: ' + scene, 30, windowHeight-90, windowWidth-250);
       fill(255);
-
 
     } else {
       fill(255, 200);
